@@ -233,7 +233,7 @@ This is where our main logic comes here
  ![](pics/img7.png)
  
  
- If you have any doubts or errors please feel free to connect me on [LinkendIn](https://www.linkedin.com/in/shashwat-sharma-79221218a/)
+ If you have any doubts or errors please feel free to connect me on [Linkedin](https://www.linkedin.com/in/shashwat-sharma-79221218a/)
 
 
 
