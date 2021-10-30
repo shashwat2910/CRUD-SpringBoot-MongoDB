@@ -217,8 +217,23 @@ This is where our main logic comes here
         }
     }
  ```
+ # Testing !!!
+ 
+ ## Adding a new Tutorial
+ ![](pics/img2.png)
+ ## Checking on database 
+ ![](pics/img3.png)
+ ## GET Method to fetch all tutorials in databases
+ ![](pics/img4.png)
+ ## PUT Method to edit the particular tutorial
+ ![](pics/img5.png)
+ ## DELETE the tutorial
+ ![](pics/img6.png)
+ ## Database 
+ ![](pics/img7.png)
  
  
+ If you have any doubts or errors please feel free to connect me on [LinkendIn](https://www.linkedin.com/in/shashwat-sharma-79221218a/)
 
 
 
