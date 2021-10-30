@@ -94,8 +94,16 @@ public Tutorial(String title, String description, boolean published) {
         return "Tutorial [id=" + id + ", title=" + title + ", desc=" + description + ", published=" + published + "]";
     }
 ```
-<br>
 We are set for the model
+
+# TutorialRepository.java interface
+```
+public interface TutorialRepository extends MongoRepository<ModelName, String>
+```
+Our Model is Tutorial
+```
+public interface TutorialRepository extends MongoRepository<Tutorial, String>
+```
 
 
 
