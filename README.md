@@ -25,3 +25,78 @@ Just follow those steps
 
 <br>
 <br>
+
+## Your directory
+![](pics/img1.png)
+<br>
+The one with red dash file is where your whole logic of api code goes there.
+<br>
+The one with orange dash file is your model. It contains the detail you want to provide.
+<br>
+The one with blue dash file is your interface file. It extends the mongo repository model. 
+<br>
+The one with brown file JUST IGNORE it !!
+<br>
+
+
+# Tutorial.java the Model file
+
+```
+    @Id
+    private String id;
+    private String title;
+    private String description;
+    private boolean published;
+```
+- id: it contains individual object ID of every tutorial we make
+- title : it contains the title of the tutorial
+- description : it contains description of the tutorial
+- published: it is a boolean value true or false. Whether the tutorial has been published yet or not
+<br>
+
+## Get and Set Method
+```
+public Tutorial(String title, String description, boolean published) {
+        this.title = title;
+        this.description = description;
+        this.published = published;
+    }
+    public String getId() {
+        return id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public boolean isPublished() {
+        return published;
+    }
+
+    public void setPublished(boolean isPublished) {
+        this.published = isPublished;
+    }
+
+    @Override
+    public String toString() {
+        return "Tutorial [id=" + id + ", title=" + title + ", desc=" + description + ", published=" + published + "]";
+    }
+```
+<br>
+We are set for the model
+
+
+
+
