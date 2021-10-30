@@ -11,7 +11,7 @@ Just follow those steps
 
 ## If you are done connecting with it then just let's begin 
 
-## Overview OF the api we are coding
+## Overview Of the API we are coding
 
 |Methods   	|Urls   	|Actions   	|
 |---	|---	|---	|
